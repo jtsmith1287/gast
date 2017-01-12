@@ -8,7 +8,7 @@ A GasT unit test file is a javascript which defines GAS unit testing cases. Behi
 
 ```javascript
 if ((typeof GasTap)==='undefined') { // GasT Initialization. (only if not initialized yet.)
-  eval(UrlFetchApp.fetch('https://raw.githubusercontent.com/zixia/gast/master/src/gas-tap-lib.js').getContentText())
+  eval(UrlFetchApp.fetch('https://raw.githubusercontent.com/jtsmith1287/gast/master/src/gas-tap-lib.js').getContentText())
 } // Class GasTap is ready for use now!
 
 var test = new GasTap()
