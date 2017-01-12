@@ -1,7 +1,7 @@
 var GasTap = (function () {
   'use strict'
 
-  var VERSION = '0.2.0'
+  var VERSION = '0.2.1'
   /**
   *
   * GasT - Google Apps Script Testing-framework
