@@ -138,9 +138,9 @@ var GasTap = (function () {
     
     function tapOutput(ok, msg) {
       print(
-        (ok ? 'ok' : 'not ok')
+        (ok ? 'PASS' : 'FAIL')
         + ' ' + ++t.counter
-        + ' - ' + msg
+        + (ok ? '': ' - ' + msg)
         + ' - ' + t.description
       )
     }
