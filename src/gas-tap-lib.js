@@ -201,7 +201,7 @@ var GasTap = (function () {
         tapOutput(true, msg)
       } else {
         this.failCounter++;
-        var error = Utilities.formatString('%s not equal %s', v1, v2)
+        var error = Utilities.formatString('Expected %s which does not equal actual of %s', v2, v1)
         tapOutput(false, error + ' - ' + msg)
       }
     }
@@ -212,7 +212,7 @@ var GasTap = (function () {
         tapOutput(true, msg)
       } else {
         this.failCounter++;
-        var error = Utilities.formatString('%s equal %s', v1, v2)
+        var error = Utilities.formatString('%s equals %s', v1, v2)
         tapOutput(false, error + ' - ' + msg)
       }
     }
